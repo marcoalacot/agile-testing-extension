@@ -4,9 +4,10 @@
 	           "48": "assets/icon48.png",
 	          "128": "assets/icon128.png" },
   "version": "2",
+  "manifest_version": 2,
   "description": "Submit issues to Github. Include HTML source and screenshots from the current tab. Include attachments.",
   "options_page": "options.html",
-  "background_page": "background.html",
+  "background": "background.html",
   "browser_action": {
     "default_icon": "assets/icon.png",
     "popup": "popup.html"
